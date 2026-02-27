@@ -1,0 +1,1844 @@
+{
+  "bomFormat": "CycloneDX",
+  "annotations": [
+    {
+      "subjects": [
+        "pkg:pypi/annotated-types@0.7.0",
+        "pkg:pypi/anyio@4.12.1",
+        "pkg:pypi/certifi@2026.2.25",
+        "pkg:pypi/charset-normalizer@3.4.4",
+        "pkg:pypi/click@8.3.1",
+        "pkg:pypi/contract-api@0.1.0?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0",
+        "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+        "pkg:pypi/exceptiongroup@1.3.1",
+        "pkg:pypi/fastapi@0.115.0",
+        "pkg:pypi/h11@0.16.0",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/httpx@0.27.2",
+        "pkg:pypi/idna@3.11",
+        "pkg:pypi/markdown-it-py@4.0.0",
+        "pkg:pypi/mdurl@0.1.2",
+        "pkg:pypi/pydantic-core@2.41.5",
+        "pkg:pypi/pydantic@2.12.5",
+        "pkg:pypi/pygments@2.19.2",
+        "pkg:pypi/python-dotenv@1.0.1",
+        "pkg:pypi/requests@2.32.3",
+        "pkg:pypi/rich@13.9.2",
+        "pkg:pypi/sniffio@1.3.1",
+        "pkg:pypi/starlette@0.38.6",
+        "pkg:pypi/typing-extensions@4.15.0",
+        "pkg:pypi/typing-inspection@0.4.2",
+        "pkg:pypi/urllib3@2.6.3",
+        "pkg:pypi/uvicorn@0.30.6"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "red hat"
+        }
+      },
+      "timestamp": "2026-02-27T23:23:22Z",
+      "text": "hermeto:backend:pip"
+    },
+    {
+      "subjects": [
+        "pkg:cargo/ahash@0.8.12?checksum=5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75",
+        "pkg:cargo/aho-corasick@1.1.3?checksum=8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916",
+        "pkg:cargo/autocfg@1.3.0?checksum=0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0",
+        "pkg:cargo/base64@0.22.1?checksum=72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6",
+        "pkg:cargo/bitflags@2.9.1?checksum=1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967",
+        "pkg:cargo/bitvec@1.0.1?checksum=1bc2832c24239b0141d5674bb9174f9d68a8b5b3f2753311927c172ca46f7e9c",
+        "pkg:cargo/bumpalo@3.19.0?checksum=46c5e41b57b8bba42a04676d81cb89e9ee8e859a1a66f80a5a72e1cb76b34d43",
+        "pkg:cargo/cc@1.0.101?checksum=ac367972e516d45567c7eafc73d24e1c193dcf200a8d94e9db7b3d38b349572d",
+        "pkg:cargo/cfg-if@1.0.0?checksum=baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "pkg:cargo/displaydoc@0.2.5?checksum=97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0",
+        "pkg:cargo/enum_dispatch@0.3.13?checksum=aa18ce2bc66555b3218614519ac839ddb759a7d6720732f979ef8d13be147ecd",
+        "pkg:cargo/form_urlencoded@1.2.1?checksum=e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456",
+        "pkg:cargo/funty@2.0.0?checksum=e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c",
+        "pkg:cargo/getrandom@0.3.3?checksum=26145e563e54f2cadc477553f1ec5ee650b00862f0a58bcd12cbdc5f0ea2d2f4",
+        "pkg:cargo/heck@0.5.0?checksum=2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea",
+        "pkg:cargo/hex@0.4.3?checksum=7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70",
+        "pkg:cargo/icu_collections@1.5.0?checksum=db2fa452206ebee18c4b5c2274dbf1de17008e874b4dc4f0aea9d01ca79e4526",
+        "pkg:cargo/icu_locid@1.5.0?checksum=13acbb8371917fc971be86fc8057c41a64b521c184808a698c02acc242dbf637",
+        "pkg:cargo/icu_locid_transform@1.5.0?checksum=01d11ac35de8e40fdeda00d9e1e9d92525f3f9d887cdd7aa81d727596788b54e",
+        "pkg:cargo/icu_locid_transform_data@1.5.0?checksum=fdc8ff3388f852bede6b579ad4e978ab004f139284d7b28715f773507b946f6e",
+        "pkg:cargo/icu_normalizer@1.5.0?checksum=19ce3e0da2ec68599d193c93d088142efd7f9c5d6fc9b803774855747dc6a84f",
+        "pkg:cargo/icu_normalizer_data@1.5.0?checksum=f8cafbf7aa791e9b22bec55a167906f9e1215fd475cd22adfcf660e03e989516",
+        "pkg:cargo/icu_properties@1.5.1?checksum=93d6020766cfc6302c15dbbc9c8778c37e62c14427cb7f6e601d849e092aeef5",
+        "pkg:cargo/icu_properties_data@1.5.0?checksum=67a8effbc3dd3e4ba1afa8ad918d5684b8868b3b26500753effea8d2eed19569",
+        "pkg:cargo/icu_provider@1.5.0?checksum=6ed421c8a8ef78d3e2dbc98a973be2f3770cb42b606e3ab18d6237c4dfde68d9",
+        "pkg:cargo/icu_provider_macros@1.5.0?checksum=1ec89e9337638ecdc08744df490b221a7399bf8d164eb52a665454e60e075ad6",
+        "pkg:cargo/idna@1.1.0?checksum=3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de",
+        "pkg:cargo/idna_adapter@1.2.0?checksum=daca1df1c957320b2cf139ac61e7bd64fed304c5040df000a745aa1de3b4ef71",
+        "pkg:cargo/indoc@2.0.5?checksum=b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5",
+        "pkg:cargo/itoa@1.0.11?checksum=49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b",
+        "pkg:cargo/jiter@0.11.1?checksum=8e805fb15a8249d25213202b9098f7b9ad00f8042ccc6f0063d2ae7b33f3d7da",
+        "pkg:cargo/js-sys@0.3.77?checksum=1cfaf33c695fc6e08064efbc1f72ec937429614f25eef83af942d0e227c3a28f",
+        "pkg:cargo/lexical-parse-float@1.0.5?checksum=de6f9cb01fb0b08060209a057c048fcbab8717b4c1ecd2eac66ebfe39a65b0f2",
+        "pkg:cargo/lexical-parse-integer@1.0.5?checksum=72207aae22fc0a121ba7b6d479e42cbfea549af1479c3f3a4f12c70dd66df12e",
+        "pkg:cargo/lexical-util@1.0.6?checksum=5a82e24bf537fd24c177ffbbdc6ebcc8d54732c35b50a3f28cc3f4e4c949a0b3",
+        "pkg:cargo/libc@0.2.155?checksum=97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c",
+        "pkg:cargo/litemap@0.7.3?checksum=643cb0b8d4fcc284004d5fd0d67ccf61dfffadb7f75e1e71bc420f4688a3a704",
+        "pkg:cargo/log@0.4.27?checksum=13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94",
+        "pkg:cargo/memchr@2.7.4?checksum=78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3",
+        "pkg:cargo/memoffset@0.9.1?checksum=488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a",
+        "pkg:cargo/num-bigint@0.4.6?checksum=a5e44f723f1133c9deac646763579fdb3ac745e418f2a7af9cd0c431da1f20b9",
+        "pkg:cargo/num-integer@0.1.46?checksum=7969661fd2958a5cb096e56c8e1ad0444ac2bbcd0061bd28660485a44879858f",
+        "pkg:cargo/num-traits@0.2.19?checksum=071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841",
+        "pkg:cargo/once_cell@1.21.3?checksum=42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d",
+        "pkg:cargo/percent-encoding@2.3.2?checksum=9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220",
+        "pkg:cargo/portable-atomic@1.6.0?checksum=7170ef9988bc169ba16dd36a7fa041e5c4cbeb6a35b76d4c03daded371eae7c0",
+        "pkg:cargo/proc-macro2@1.0.86?checksum=5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77",
+        "pkg:cargo/pydantic-core@2.41.5?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0#deps/pip/pydantic_core-2.41.5/pydantic_core-2.41.5",
+        "pkg:cargo/pyo3-build-config@0.26.0?checksum=4fc6ddaf24947d12a9aa31ac65431fb1b851b8f4365426e182901eabfb87df5f",
+        "pkg:cargo/pyo3-ffi@0.26.0?checksum=025474d3928738efb38ac36d4744a74a400c901c7596199e20e45d98eb194105",
+        "pkg:cargo/pyo3-macros-backend@0.26.0?checksum=100246c0ecf400b475341b8455a9213344569af29a3c841d29270e53102e0fcf",
+        "pkg:cargo/pyo3-macros@0.26.0?checksum=2e64eb489f22fe1c95911b77c44cc41e7c19f3082fc81cce90f657cdc42ffded",
+        "pkg:cargo/pyo3@0.26.0?checksum=7ba0117f4212101ee6544044dae45abe1083d30ce7b29c4b5cbdfa2354e07383",
+        "pkg:cargo/python3-dll-a@0.2.14?checksum=d381ef313ae70b4da5f95f8a4de773c6aa5cd28f73adec4b4a31df70b66780d8",
+        "pkg:cargo/quote@1.0.36?checksum=0fa76aaf39101c457836aec0ce2316dbdc3ab723cdda1c6bd4e6ad4208acaca7",
+        "pkg:cargo/r-efi@5.2.0?checksum=74765f6d916ee2faa39bc8e68e4f3ed8949b48cccdac59983d287a7cb71ce9c5",
+        "pkg:cargo/radium@0.7.0?checksum=dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09",
+        "pkg:cargo/regex-automata@0.4.13?checksum=5276caf25ac86c8d810222b3dbb938e512c55c6831a10f3e6ed1c93b84041f1c",
+        "pkg:cargo/regex-syntax@0.8.5?checksum=2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c",
+        "pkg:cargo/regex@1.12.2?checksum=843bc0191f75f3e22651ae5f1e72939ab2f72a4bc30fa80a066bd66edefc24d4",
+        "pkg:cargo/rustversion@1.0.17?checksum=955d28af4278de8121b7ebeb796b6a45735dc01436d898801014aced2773a3d6",
+        "pkg:cargo/ryu@1.0.18?checksum=f3cb5ba0dc43242ce17de99c180e96db90b235b8a9fdc9543c96d2209116bd9f",
+        "pkg:cargo/serde@1.0.228?checksum=9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+        "pkg:cargo/serde_core@1.0.228?checksum=41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+        "pkg:cargo/serde_derive@1.0.228?checksum=d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+        "pkg:cargo/serde_json@1.0.145?checksum=402a6f66d8c709116cf22f558eab210f5a50187f702eb4d7e5ef38d9a7f1c79c",
+        "pkg:cargo/smallvec@1.15.1?checksum=67b1b7a3b5fe4f1376887184045fcf45c69e92af734b7aaddc05fb777b6fbd03",
+        "pkg:cargo/speedate@0.17.0?checksum=aba069c070b5e213f2a094deb7e5ed50ecb092be36102a4f4042e8d2056d060e",
+        "pkg:cargo/stable_deref_trait@1.2.0?checksum=a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3",
+        "pkg:cargo/static_assertions@1.1.0?checksum=a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "pkg:cargo/strum@0.27.2?checksum=af23d6f6c1a224baef9d3f61e287d2761385a5b88fdab4eb4c6f11aeb54c4bcf",
+        "pkg:cargo/strum_macros@0.27.2?checksum=7695ce3845ea4b33927c055a39dc438a45b059f7c1b3d91d38d10355fb8cbca7",
+        "pkg:cargo/syn@2.0.82?checksum=83540f837a8afc019423a8edb95b52a8effe46957ee402287f4292fae35be021",
+        "pkg:cargo/synstructure@0.13.1?checksum=c8af7666ab7b6390ab78131fb5b0fce11d6b7a6951602017c35fa82800708971",
+        "pkg:cargo/tap@1.0.1?checksum=55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
+        "pkg:cargo/target-lexicon@0.13.2?checksum=e502f78cdbb8ba4718f566c418c52bc729126ffd16baee5baa718cf25dd5a69a",
+        "pkg:cargo/tinystr@0.7.6?checksum=9117f5d4db391c1cf6927e7bea3db74b9a1c1add8f7eda9ffd5364f40f57b82f",
+        "pkg:cargo/unicode-ident@1.0.12?checksum=3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b",
+        "pkg:cargo/unindent@0.2.3?checksum=c7de7d73e1754487cb58364ee906a499937a0dfabd86bcb980fa99ec8c8fa2ce",
+        "pkg:cargo/url@2.5.4?checksum=32f8b686cadd1473f4bd0117a5d28d36b1ade384ea9b5069a1c40aefed7fda60",
+        "pkg:cargo/utf16_iter@1.0.5?checksum=c8232dd3cdaed5356e0f716d285e4b40b932ac434100fe9b7e0e8e935b9e6246",
+        "pkg:cargo/utf8_iter@1.0.4?checksum=b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be",
+        "pkg:cargo/uuid@1.18.1?checksum=2f87b8aa10b915a06587d0dec516c282ff295b475d94abf425d62b57710070a2",
+        "pkg:cargo/version_check@0.9.5?checksum=0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a",
+        "pkg:cargo/wasi@0.14.2%2Bwasi-0.2.4?checksum=9683f9a5a998d873c0d21fcbe3c083009670149a8fab228644b8bd36b2c48cb3",
+        "pkg:cargo/wasm-bindgen-backend@0.2.100?checksum=2f0a0651a5c2bc21487bde11ee802ccaf4c51935d0d3d42a6101f98161700bc6",
+        "pkg:cargo/wasm-bindgen-macro-support@0.2.100?checksum=8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de",
+        "pkg:cargo/wasm-bindgen-macro@0.2.100?checksum=7fe63fc6d09ed3792bd0897b314f53de8e16568c2b3f7982f468c0bf9bd0b407",
+        "pkg:cargo/wasm-bindgen-shared@0.2.100?checksum=1a05d73b933a847d6cccdda8f838a22ff101ad9bf93e33684f39c1f5f0eece3d",
+        "pkg:cargo/wasm-bindgen@0.2.100?checksum=1edc8929d7499fc4e8f0be2262a241556cfc54a0bea223790e71446f2aab1ef5",
+        "pkg:cargo/wit-bindgen-rt@0.39.0?checksum=6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1",
+        "pkg:cargo/write16@1.0.0?checksum=d1890f4022759daae28ed4fe62859b1236caebfc61ede2f63ed4e695f3f6d936",
+        "pkg:cargo/writeable@0.5.5?checksum=1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51",
+        "pkg:cargo/wyz@0.5.1?checksum=05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed",
+        "pkg:cargo/yoke-derive@0.7.4?checksum=28cc31741b18cb6f1d5ff12f5b7523e3d6eb0852bbbad19d73905511d9849b95",
+        "pkg:cargo/yoke@0.7.4?checksum=6c5b1314b079b0930c31e3af543d8ee1757b1951ae1e1565ec704403a7240ca5",
+        "pkg:cargo/zerocopy-derive@0.8.25?checksum=28a6e20d751156648aa063f3800b706ee209a32c0b4d9f24be3d980b01be55ef",
+        "pkg:cargo/zerocopy@0.8.25?checksum=a1702d9583232ddb9174e01bb7c15a2ab8fb1bc6f227aa1233858c351a3ba0cb",
+        "pkg:cargo/zerofrom-derive@0.1.4?checksum=0ea7b4a3637ea8669cedf0f1fd5c286a17f3de97b8dd5a70a6c167a1730e63a5",
+        "pkg:cargo/zerofrom@0.1.4?checksum=91ec111ce797d0e0784a1116d0ddcdbea84322cd79e5d5ad173daeba4f93ab55",
+        "pkg:cargo/zerovec-derive@0.10.3?checksum=6eafa6dfb17584ea3e2bd6e76e0cc15ad7af12b09abdd1ca55961bed9b1063c6",
+        "pkg:cargo/zerovec@0.10.4?checksum=aa2b893d79df23bfb12d5461018d408ea19dfafe76c2c7ef6d4eba614f8ff079"
+      ],
+      "annotator": {
+        "organization": {
+          "name": "red hat"
+        }
+      },
+      "timestamp": "2026-02-27T23:23:23Z",
+      "text": "hermeto:backend:cargo"
+    }
+  ],
+  "components": [
+    {
+      "bom-ref": "pkg:cargo/ahash@0.8.12?checksum=5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75",
+      "name": "ahash",
+      "purl": "pkg:cargo/ahash@0.8.12?checksum=5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75",
+      "version": "0.8.12",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/aho-corasick@1.1.3?checksum=8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916",
+      "name": "aho-corasick",
+      "purl": "pkg:cargo/aho-corasick@1.1.3?checksum=8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916",
+      "version": "1.1.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/autocfg@1.3.0?checksum=0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0",
+      "name": "autocfg",
+      "purl": "pkg:cargo/autocfg@1.3.0?checksum=0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0",
+      "version": "1.3.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/base64@0.22.1?checksum=72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6",
+      "name": "base64",
+      "purl": "pkg:cargo/base64@0.22.1?checksum=72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6",
+      "version": "0.22.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/bitflags@2.9.1?checksum=1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967",
+      "name": "bitflags",
+      "purl": "pkg:cargo/bitflags@2.9.1?checksum=1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967",
+      "version": "2.9.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/bitvec@1.0.1?checksum=1bc2832c24239b0141d5674bb9174f9d68a8b5b3f2753311927c172ca46f7e9c",
+      "name": "bitvec",
+      "purl": "pkg:cargo/bitvec@1.0.1?checksum=1bc2832c24239b0141d5674bb9174f9d68a8b5b3f2753311927c172ca46f7e9c",
+      "version": "1.0.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/bumpalo@3.19.0?checksum=46c5e41b57b8bba42a04676d81cb89e9ee8e859a1a66f80a5a72e1cb76b34d43",
+      "name": "bumpalo",
+      "purl": "pkg:cargo/bumpalo@3.19.0?checksum=46c5e41b57b8bba42a04676d81cb89e9ee8e859a1a66f80a5a72e1cb76b34d43",
+      "version": "3.19.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/cc@1.0.101?checksum=ac367972e516d45567c7eafc73d24e1c193dcf200a8d94e9db7b3d38b349572d",
+      "name": "cc",
+      "purl": "pkg:cargo/cc@1.0.101?checksum=ac367972e516d45567c7eafc73d24e1c193dcf200a8d94e9db7b3d38b349572d",
+      "version": "1.0.101",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/cfg-if@1.0.0?checksum=baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+      "name": "cfg-if",
+      "purl": "pkg:cargo/cfg-if@1.0.0?checksum=baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+      "version": "1.0.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/displaydoc@0.2.5?checksum=97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0",
+      "name": "displaydoc",
+      "purl": "pkg:cargo/displaydoc@0.2.5?checksum=97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0",
+      "version": "0.2.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/enum_dispatch@0.3.13?checksum=aa18ce2bc66555b3218614519ac839ddb759a7d6720732f979ef8d13be147ecd",
+      "name": "enum_dispatch",
+      "purl": "pkg:cargo/enum_dispatch@0.3.13?checksum=aa18ce2bc66555b3218614519ac839ddb759a7d6720732f979ef8d13be147ecd",
+      "version": "0.3.13",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/form_urlencoded@1.2.1?checksum=e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456",
+      "name": "form_urlencoded",
+      "purl": "pkg:cargo/form_urlencoded@1.2.1?checksum=e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456",
+      "version": "1.2.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/funty@2.0.0?checksum=e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c",
+      "name": "funty",
+      "purl": "pkg:cargo/funty@2.0.0?checksum=e6d5a32815ae3f33302d95fdcb2ce17862f8c65363dcfd29360480ba1001fc9c",
+      "version": "2.0.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/getrandom@0.3.3?checksum=26145e563e54f2cadc477553f1ec5ee650b00862f0a58bcd12cbdc5f0ea2d2f4",
+      "name": "getrandom",
+      "purl": "pkg:cargo/getrandom@0.3.3?checksum=26145e563e54f2cadc477553f1ec5ee650b00862f0a58bcd12cbdc5f0ea2d2f4",
+      "version": "0.3.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/heck@0.5.0?checksum=2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea",
+      "name": "heck",
+      "purl": "pkg:cargo/heck@0.5.0?checksum=2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea",
+      "version": "0.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/hex@0.4.3?checksum=7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70",
+      "name": "hex",
+      "purl": "pkg:cargo/hex@0.4.3?checksum=7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70",
+      "version": "0.4.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_collections@1.5.0?checksum=db2fa452206ebee18c4b5c2274dbf1de17008e874b4dc4f0aea9d01ca79e4526",
+      "name": "icu_collections",
+      "purl": "pkg:cargo/icu_collections@1.5.0?checksum=db2fa452206ebee18c4b5c2274dbf1de17008e874b4dc4f0aea9d01ca79e4526",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_locid@1.5.0?checksum=13acbb8371917fc971be86fc8057c41a64b521c184808a698c02acc242dbf637",
+      "name": "icu_locid",
+      "purl": "pkg:cargo/icu_locid@1.5.0?checksum=13acbb8371917fc971be86fc8057c41a64b521c184808a698c02acc242dbf637",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_locid_transform@1.5.0?checksum=01d11ac35de8e40fdeda00d9e1e9d92525f3f9d887cdd7aa81d727596788b54e",
+      "name": "icu_locid_transform",
+      "purl": "pkg:cargo/icu_locid_transform@1.5.0?checksum=01d11ac35de8e40fdeda00d9e1e9d92525f3f9d887cdd7aa81d727596788b54e",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_locid_transform_data@1.5.0?checksum=fdc8ff3388f852bede6b579ad4e978ab004f139284d7b28715f773507b946f6e",
+      "name": "icu_locid_transform_data",
+      "purl": "pkg:cargo/icu_locid_transform_data@1.5.0?checksum=fdc8ff3388f852bede6b579ad4e978ab004f139284d7b28715f773507b946f6e",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_normalizer@1.5.0?checksum=19ce3e0da2ec68599d193c93d088142efd7f9c5d6fc9b803774855747dc6a84f",
+      "name": "icu_normalizer",
+      "purl": "pkg:cargo/icu_normalizer@1.5.0?checksum=19ce3e0da2ec68599d193c93d088142efd7f9c5d6fc9b803774855747dc6a84f",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_normalizer_data@1.5.0?checksum=f8cafbf7aa791e9b22bec55a167906f9e1215fd475cd22adfcf660e03e989516",
+      "name": "icu_normalizer_data",
+      "purl": "pkg:cargo/icu_normalizer_data@1.5.0?checksum=f8cafbf7aa791e9b22bec55a167906f9e1215fd475cd22adfcf660e03e989516",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_properties@1.5.1?checksum=93d6020766cfc6302c15dbbc9c8778c37e62c14427cb7f6e601d849e092aeef5",
+      "name": "icu_properties",
+      "purl": "pkg:cargo/icu_properties@1.5.1?checksum=93d6020766cfc6302c15dbbc9c8778c37e62c14427cb7f6e601d849e092aeef5",
+      "version": "1.5.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_properties_data@1.5.0?checksum=67a8effbc3dd3e4ba1afa8ad918d5684b8868b3b26500753effea8d2eed19569",
+      "name": "icu_properties_data",
+      "purl": "pkg:cargo/icu_properties_data@1.5.0?checksum=67a8effbc3dd3e4ba1afa8ad918d5684b8868b3b26500753effea8d2eed19569",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_provider@1.5.0?checksum=6ed421c8a8ef78d3e2dbc98a973be2f3770cb42b606e3ab18d6237c4dfde68d9",
+      "name": "icu_provider",
+      "purl": "pkg:cargo/icu_provider@1.5.0?checksum=6ed421c8a8ef78d3e2dbc98a973be2f3770cb42b606e3ab18d6237c4dfde68d9",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/icu_provider_macros@1.5.0?checksum=1ec89e9337638ecdc08744df490b221a7399bf8d164eb52a665454e60e075ad6",
+      "name": "icu_provider_macros",
+      "purl": "pkg:cargo/icu_provider_macros@1.5.0?checksum=1ec89e9337638ecdc08744df490b221a7399bf8d164eb52a665454e60e075ad6",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/idna@1.1.0?checksum=3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de",
+      "name": "idna",
+      "purl": "pkg:cargo/idna@1.1.0?checksum=3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de",
+      "version": "1.1.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/idna_adapter@1.2.0?checksum=daca1df1c957320b2cf139ac61e7bd64fed304c5040df000a745aa1de3b4ef71",
+      "name": "idna_adapter",
+      "purl": "pkg:cargo/idna_adapter@1.2.0?checksum=daca1df1c957320b2cf139ac61e7bd64fed304c5040df000a745aa1de3b4ef71",
+      "version": "1.2.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/indoc@2.0.5?checksum=b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5",
+      "name": "indoc",
+      "purl": "pkg:cargo/indoc@2.0.5?checksum=b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5",
+      "version": "2.0.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/itoa@1.0.11?checksum=49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b",
+      "name": "itoa",
+      "purl": "pkg:cargo/itoa@1.0.11?checksum=49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b",
+      "version": "1.0.11",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/jiter@0.11.1?checksum=8e805fb15a8249d25213202b9098f7b9ad00f8042ccc6f0063d2ae7b33f3d7da",
+      "name": "jiter",
+      "purl": "pkg:cargo/jiter@0.11.1?checksum=8e805fb15a8249d25213202b9098f7b9ad00f8042ccc6f0063d2ae7b33f3d7da",
+      "version": "0.11.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/js-sys@0.3.77?checksum=1cfaf33c695fc6e08064efbc1f72ec937429614f25eef83af942d0e227c3a28f",
+      "name": "js-sys",
+      "purl": "pkg:cargo/js-sys@0.3.77?checksum=1cfaf33c695fc6e08064efbc1f72ec937429614f25eef83af942d0e227c3a28f",
+      "version": "0.3.77",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/lexical-parse-float@1.0.5?checksum=de6f9cb01fb0b08060209a057c048fcbab8717b4c1ecd2eac66ebfe39a65b0f2",
+      "name": "lexical-parse-float",
+      "purl": "pkg:cargo/lexical-parse-float@1.0.5?checksum=de6f9cb01fb0b08060209a057c048fcbab8717b4c1ecd2eac66ebfe39a65b0f2",
+      "version": "1.0.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/lexical-parse-integer@1.0.5?checksum=72207aae22fc0a121ba7b6d479e42cbfea549af1479c3f3a4f12c70dd66df12e",
+      "name": "lexical-parse-integer",
+      "purl": "pkg:cargo/lexical-parse-integer@1.0.5?checksum=72207aae22fc0a121ba7b6d479e42cbfea549af1479c3f3a4f12c70dd66df12e",
+      "version": "1.0.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/lexical-util@1.0.6?checksum=5a82e24bf537fd24c177ffbbdc6ebcc8d54732c35b50a3f28cc3f4e4c949a0b3",
+      "name": "lexical-util",
+      "purl": "pkg:cargo/lexical-util@1.0.6?checksum=5a82e24bf537fd24c177ffbbdc6ebcc8d54732c35b50a3f28cc3f4e4c949a0b3",
+      "version": "1.0.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/libc@0.2.155?checksum=97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c",
+      "name": "libc",
+      "purl": "pkg:cargo/libc@0.2.155?checksum=97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c",
+      "version": "0.2.155",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/litemap@0.7.3?checksum=643cb0b8d4fcc284004d5fd0d67ccf61dfffadb7f75e1e71bc420f4688a3a704",
+      "name": "litemap",
+      "purl": "pkg:cargo/litemap@0.7.3?checksum=643cb0b8d4fcc284004d5fd0d67ccf61dfffadb7f75e1e71bc420f4688a3a704",
+      "version": "0.7.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/log@0.4.27?checksum=13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94",
+      "name": "log",
+      "purl": "pkg:cargo/log@0.4.27?checksum=13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94",
+      "version": "0.4.27",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/memchr@2.7.4?checksum=78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3",
+      "name": "memchr",
+      "purl": "pkg:cargo/memchr@2.7.4?checksum=78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3",
+      "version": "2.7.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/memoffset@0.9.1?checksum=488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a",
+      "name": "memoffset",
+      "purl": "pkg:cargo/memoffset@0.9.1?checksum=488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a",
+      "version": "0.9.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/num-bigint@0.4.6?checksum=a5e44f723f1133c9deac646763579fdb3ac745e418f2a7af9cd0c431da1f20b9",
+      "name": "num-bigint",
+      "purl": "pkg:cargo/num-bigint@0.4.6?checksum=a5e44f723f1133c9deac646763579fdb3ac745e418f2a7af9cd0c431da1f20b9",
+      "version": "0.4.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/num-integer@0.1.46?checksum=7969661fd2958a5cb096e56c8e1ad0444ac2bbcd0061bd28660485a44879858f",
+      "name": "num-integer",
+      "purl": "pkg:cargo/num-integer@0.1.46?checksum=7969661fd2958a5cb096e56c8e1ad0444ac2bbcd0061bd28660485a44879858f",
+      "version": "0.1.46",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/num-traits@0.2.19?checksum=071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841",
+      "name": "num-traits",
+      "purl": "pkg:cargo/num-traits@0.2.19?checksum=071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841",
+      "version": "0.2.19",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/once_cell@1.21.3?checksum=42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d",
+      "name": "once_cell",
+      "purl": "pkg:cargo/once_cell@1.21.3?checksum=42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d",
+      "version": "1.21.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/percent-encoding@2.3.2?checksum=9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220",
+      "name": "percent-encoding",
+      "purl": "pkg:cargo/percent-encoding@2.3.2?checksum=9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220",
+      "version": "2.3.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/portable-atomic@1.6.0?checksum=7170ef9988bc169ba16dd36a7fa041e5c4cbeb6a35b76d4c03daded371eae7c0",
+      "name": "portable-atomic",
+      "purl": "pkg:cargo/portable-atomic@1.6.0?checksum=7170ef9988bc169ba16dd36a7fa041e5c4cbeb6a35b76d4c03daded371eae7c0",
+      "version": "1.6.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/proc-macro2@1.0.86?checksum=5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77",
+      "name": "proc-macro2",
+      "purl": "pkg:cargo/proc-macro2@1.0.86?checksum=5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77",
+      "version": "1.0.86",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pydantic-core@2.41.5?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0#deps/pip/pydantic_core-2.41.5/pydantic_core-2.41.5",
+      "name": "pydantic-core",
+      "purl": "pkg:cargo/pydantic-core@2.41.5?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0#deps/pip/pydantic_core-2.41.5/pydantic_core-2.41.5",
+      "version": "2.41.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pyo3-build-config@0.26.0?checksum=4fc6ddaf24947d12a9aa31ac65431fb1b851b8f4365426e182901eabfb87df5f",
+      "name": "pyo3-build-config",
+      "purl": "pkg:cargo/pyo3-build-config@0.26.0?checksum=4fc6ddaf24947d12a9aa31ac65431fb1b851b8f4365426e182901eabfb87df5f",
+      "version": "0.26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pyo3-ffi@0.26.0?checksum=025474d3928738efb38ac36d4744a74a400c901c7596199e20e45d98eb194105",
+      "name": "pyo3-ffi",
+      "purl": "pkg:cargo/pyo3-ffi@0.26.0?checksum=025474d3928738efb38ac36d4744a74a400c901c7596199e20e45d98eb194105",
+      "version": "0.26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pyo3-macros-backend@0.26.0?checksum=100246c0ecf400b475341b8455a9213344569af29a3c841d29270e53102e0fcf",
+      "name": "pyo3-macros-backend",
+      "purl": "pkg:cargo/pyo3-macros-backend@0.26.0?checksum=100246c0ecf400b475341b8455a9213344569af29a3c841d29270e53102e0fcf",
+      "version": "0.26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pyo3-macros@0.26.0?checksum=2e64eb489f22fe1c95911b77c44cc41e7c19f3082fc81cce90f657cdc42ffded",
+      "name": "pyo3-macros",
+      "purl": "pkg:cargo/pyo3-macros@0.26.0?checksum=2e64eb489f22fe1c95911b77c44cc41e7c19f3082fc81cce90f657cdc42ffded",
+      "version": "0.26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/pyo3@0.26.0?checksum=7ba0117f4212101ee6544044dae45abe1083d30ce7b29c4b5cbdfa2354e07383",
+      "name": "pyo3",
+      "purl": "pkg:cargo/pyo3@0.26.0?checksum=7ba0117f4212101ee6544044dae45abe1083d30ce7b29c4b5cbdfa2354e07383",
+      "version": "0.26.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/python3-dll-a@0.2.14?checksum=d381ef313ae70b4da5f95f8a4de773c6aa5cd28f73adec4b4a31df70b66780d8",
+      "name": "python3-dll-a",
+      "purl": "pkg:cargo/python3-dll-a@0.2.14?checksum=d381ef313ae70b4da5f95f8a4de773c6aa5cd28f73adec4b4a31df70b66780d8",
+      "version": "0.2.14",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/quote@1.0.36?checksum=0fa76aaf39101c457836aec0ce2316dbdc3ab723cdda1c6bd4e6ad4208acaca7",
+      "name": "quote",
+      "purl": "pkg:cargo/quote@1.0.36?checksum=0fa76aaf39101c457836aec0ce2316dbdc3ab723cdda1c6bd4e6ad4208acaca7",
+      "version": "1.0.36",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/r-efi@5.2.0?checksum=74765f6d916ee2faa39bc8e68e4f3ed8949b48cccdac59983d287a7cb71ce9c5",
+      "name": "r-efi",
+      "purl": "pkg:cargo/r-efi@5.2.0?checksum=74765f6d916ee2faa39bc8e68e4f3ed8949b48cccdac59983d287a7cb71ce9c5",
+      "version": "5.2.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/radium@0.7.0?checksum=dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09",
+      "name": "radium",
+      "purl": "pkg:cargo/radium@0.7.0?checksum=dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09",
+      "version": "0.7.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-automata@0.4.13?checksum=5276caf25ac86c8d810222b3dbb938e512c55c6831a10f3e6ed1c93b84041f1c",
+      "name": "regex-automata",
+      "purl": "pkg:cargo/regex-automata@0.4.13?checksum=5276caf25ac86c8d810222b3dbb938e512c55c6831a10f3e6ed1c93b84041f1c",
+      "version": "0.4.13",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-syntax@0.8.5?checksum=2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c",
+      "name": "regex-syntax",
+      "purl": "pkg:cargo/regex-syntax@0.8.5?checksum=2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c",
+      "version": "0.8.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/regex@1.12.2?checksum=843bc0191f75f3e22651ae5f1e72939ab2f72a4bc30fa80a066bd66edefc24d4",
+      "name": "regex",
+      "purl": "pkg:cargo/regex@1.12.2?checksum=843bc0191f75f3e22651ae5f1e72939ab2f72a4bc30fa80a066bd66edefc24d4",
+      "version": "1.12.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/rustversion@1.0.17?checksum=955d28af4278de8121b7ebeb796b6a45735dc01436d898801014aced2773a3d6",
+      "name": "rustversion",
+      "purl": "pkg:cargo/rustversion@1.0.17?checksum=955d28af4278de8121b7ebeb796b6a45735dc01436d898801014aced2773a3d6",
+      "version": "1.0.17",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/ryu@1.0.18?checksum=f3cb5ba0dc43242ce17de99c180e96db90b235b8a9fdc9543c96d2209116bd9f",
+      "name": "ryu",
+      "purl": "pkg:cargo/ryu@1.0.18?checksum=f3cb5ba0dc43242ce17de99c180e96db90b235b8a9fdc9543c96d2209116bd9f",
+      "version": "1.0.18",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/serde@1.0.228?checksum=9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+      "name": "serde",
+      "purl": "pkg:cargo/serde@1.0.228?checksum=9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+      "version": "1.0.228",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/serde_core@1.0.228?checksum=41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+      "name": "serde_core",
+      "purl": "pkg:cargo/serde_core@1.0.228?checksum=41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+      "version": "1.0.228",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/serde_derive@1.0.228?checksum=d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+      "name": "serde_derive",
+      "purl": "pkg:cargo/serde_derive@1.0.228?checksum=d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+      "version": "1.0.228",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/serde_json@1.0.145?checksum=402a6f66d8c709116cf22f558eab210f5a50187f702eb4d7e5ef38d9a7f1c79c",
+      "name": "serde_json",
+      "purl": "pkg:cargo/serde_json@1.0.145?checksum=402a6f66d8c709116cf22f558eab210f5a50187f702eb4d7e5ef38d9a7f1c79c",
+      "version": "1.0.145",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/smallvec@1.15.1?checksum=67b1b7a3b5fe4f1376887184045fcf45c69e92af734b7aaddc05fb777b6fbd03",
+      "name": "smallvec",
+      "purl": "pkg:cargo/smallvec@1.15.1?checksum=67b1b7a3b5fe4f1376887184045fcf45c69e92af734b7aaddc05fb777b6fbd03",
+      "version": "1.15.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/speedate@0.17.0?checksum=aba069c070b5e213f2a094deb7e5ed50ecb092be36102a4f4042e8d2056d060e",
+      "name": "speedate",
+      "purl": "pkg:cargo/speedate@0.17.0?checksum=aba069c070b5e213f2a094deb7e5ed50ecb092be36102a4f4042e8d2056d060e",
+      "version": "0.17.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/stable_deref_trait@1.2.0?checksum=a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3",
+      "name": "stable_deref_trait",
+      "purl": "pkg:cargo/stable_deref_trait@1.2.0?checksum=a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3",
+      "version": "1.2.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/static_assertions@1.1.0?checksum=a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+      "name": "static_assertions",
+      "purl": "pkg:cargo/static_assertions@1.1.0?checksum=a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+      "version": "1.1.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/strum@0.27.2?checksum=af23d6f6c1a224baef9d3f61e287d2761385a5b88fdab4eb4c6f11aeb54c4bcf",
+      "name": "strum",
+      "purl": "pkg:cargo/strum@0.27.2?checksum=af23d6f6c1a224baef9d3f61e287d2761385a5b88fdab4eb4c6f11aeb54c4bcf",
+      "version": "0.27.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/strum_macros@0.27.2?checksum=7695ce3845ea4b33927c055a39dc438a45b059f7c1b3d91d38d10355fb8cbca7",
+      "name": "strum_macros",
+      "purl": "pkg:cargo/strum_macros@0.27.2?checksum=7695ce3845ea4b33927c055a39dc438a45b059f7c1b3d91d38d10355fb8cbca7",
+      "version": "0.27.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/syn@2.0.82?checksum=83540f837a8afc019423a8edb95b52a8effe46957ee402287f4292fae35be021",
+      "name": "syn",
+      "purl": "pkg:cargo/syn@2.0.82?checksum=83540f837a8afc019423a8edb95b52a8effe46957ee402287f4292fae35be021",
+      "version": "2.0.82",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/synstructure@0.13.1?checksum=c8af7666ab7b6390ab78131fb5b0fce11d6b7a6951602017c35fa82800708971",
+      "name": "synstructure",
+      "purl": "pkg:cargo/synstructure@0.13.1?checksum=c8af7666ab7b6390ab78131fb5b0fce11d6b7a6951602017c35fa82800708971",
+      "version": "0.13.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/tap@1.0.1?checksum=55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
+      "name": "tap",
+      "purl": "pkg:cargo/tap@1.0.1?checksum=55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
+      "version": "1.0.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/target-lexicon@0.13.2?checksum=e502f78cdbb8ba4718f566c418c52bc729126ffd16baee5baa718cf25dd5a69a",
+      "name": "target-lexicon",
+      "purl": "pkg:cargo/target-lexicon@0.13.2?checksum=e502f78cdbb8ba4718f566c418c52bc729126ffd16baee5baa718cf25dd5a69a",
+      "version": "0.13.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/tinystr@0.7.6?checksum=9117f5d4db391c1cf6927e7bea3db74b9a1c1add8f7eda9ffd5364f40f57b82f",
+      "name": "tinystr",
+      "purl": "pkg:cargo/tinystr@0.7.6?checksum=9117f5d4db391c1cf6927e7bea3db74b9a1c1add8f7eda9ffd5364f40f57b82f",
+      "version": "0.7.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.12?checksum=3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b",
+      "name": "unicode-ident",
+      "purl": "pkg:cargo/unicode-ident@1.0.12?checksum=3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b",
+      "version": "1.0.12",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/unindent@0.2.3?checksum=c7de7d73e1754487cb58364ee906a499937a0dfabd86bcb980fa99ec8c8fa2ce",
+      "name": "unindent",
+      "purl": "pkg:cargo/unindent@0.2.3?checksum=c7de7d73e1754487cb58364ee906a499937a0dfabd86bcb980fa99ec8c8fa2ce",
+      "version": "0.2.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/url@2.5.4?checksum=32f8b686cadd1473f4bd0117a5d28d36b1ade384ea9b5069a1c40aefed7fda60",
+      "name": "url",
+      "purl": "pkg:cargo/url@2.5.4?checksum=32f8b686cadd1473f4bd0117a5d28d36b1ade384ea9b5069a1c40aefed7fda60",
+      "version": "2.5.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/utf16_iter@1.0.5?checksum=c8232dd3cdaed5356e0f716d285e4b40b932ac434100fe9b7e0e8e935b9e6246",
+      "name": "utf16_iter",
+      "purl": "pkg:cargo/utf16_iter@1.0.5?checksum=c8232dd3cdaed5356e0f716d285e4b40b932ac434100fe9b7e0e8e935b9e6246",
+      "version": "1.0.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/utf8_iter@1.0.4?checksum=b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be",
+      "name": "utf8_iter",
+      "purl": "pkg:cargo/utf8_iter@1.0.4?checksum=b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be",
+      "version": "1.0.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/uuid@1.18.1?checksum=2f87b8aa10b915a06587d0dec516c282ff295b475d94abf425d62b57710070a2",
+      "name": "uuid",
+      "purl": "pkg:cargo/uuid@1.18.1?checksum=2f87b8aa10b915a06587d0dec516c282ff295b475d94abf425d62b57710070a2",
+      "version": "1.18.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/version_check@0.9.5?checksum=0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a",
+      "name": "version_check",
+      "purl": "pkg:cargo/version_check@0.9.5?checksum=0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a",
+      "version": "0.9.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasi@0.14.2%2Bwasi-0.2.4?checksum=9683f9a5a998d873c0d21fcbe3c083009670149a8fab228644b8bd36b2c48cb3",
+      "name": "wasi",
+      "purl": "pkg:cargo/wasi@0.14.2%2Bwasi-0.2.4?checksum=9683f9a5a998d873c0d21fcbe3c083009670149a8fab228644b8bd36b2c48cb3",
+      "version": "0.14.2+wasi-0.2.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasm-bindgen-backend@0.2.100?checksum=2f0a0651a5c2bc21487bde11ee802ccaf4c51935d0d3d42a6101f98161700bc6",
+      "name": "wasm-bindgen-backend",
+      "purl": "pkg:cargo/wasm-bindgen-backend@0.2.100?checksum=2f0a0651a5c2bc21487bde11ee802ccaf4c51935d0d3d42a6101f98161700bc6",
+      "version": "0.2.100",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasm-bindgen-macro-support@0.2.100?checksum=8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de",
+      "name": "wasm-bindgen-macro-support",
+      "purl": "pkg:cargo/wasm-bindgen-macro-support@0.2.100?checksum=8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de",
+      "version": "0.2.100",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasm-bindgen-macro@0.2.100?checksum=7fe63fc6d09ed3792bd0897b314f53de8e16568c2b3f7982f468c0bf9bd0b407",
+      "name": "wasm-bindgen-macro",
+      "purl": "pkg:cargo/wasm-bindgen-macro@0.2.100?checksum=7fe63fc6d09ed3792bd0897b314f53de8e16568c2b3f7982f468c0bf9bd0b407",
+      "version": "0.2.100",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasm-bindgen-shared@0.2.100?checksum=1a05d73b933a847d6cccdda8f838a22ff101ad9bf93e33684f39c1f5f0eece3d",
+      "name": "wasm-bindgen-shared",
+      "purl": "pkg:cargo/wasm-bindgen-shared@0.2.100?checksum=1a05d73b933a847d6cccdda8f838a22ff101ad9bf93e33684f39c1f5f0eece3d",
+      "version": "0.2.100",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wasm-bindgen@0.2.100?checksum=1edc8929d7499fc4e8f0be2262a241556cfc54a0bea223790e71446f2aab1ef5",
+      "name": "wasm-bindgen",
+      "purl": "pkg:cargo/wasm-bindgen@0.2.100?checksum=1edc8929d7499fc4e8f0be2262a241556cfc54a0bea223790e71446f2aab1ef5",
+      "version": "0.2.100",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wit-bindgen-rt@0.39.0?checksum=6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1",
+      "name": "wit-bindgen-rt",
+      "purl": "pkg:cargo/wit-bindgen-rt@0.39.0?checksum=6f42320e61fe2cfd34354ecb597f86f413484a798ba44a8ca1165c58d42da6c1",
+      "version": "0.39.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/write16@1.0.0?checksum=d1890f4022759daae28ed4fe62859b1236caebfc61ede2f63ed4e695f3f6d936",
+      "name": "write16",
+      "purl": "pkg:cargo/write16@1.0.0?checksum=d1890f4022759daae28ed4fe62859b1236caebfc61ede2f63ed4e695f3f6d936",
+      "version": "1.0.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/writeable@0.5.5?checksum=1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51",
+      "name": "writeable",
+      "purl": "pkg:cargo/writeable@0.5.5?checksum=1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51",
+      "version": "0.5.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/wyz@0.5.1?checksum=05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed",
+      "name": "wyz",
+      "purl": "pkg:cargo/wyz@0.5.1?checksum=05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed",
+      "version": "0.5.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/yoke-derive@0.7.4?checksum=28cc31741b18cb6f1d5ff12f5b7523e3d6eb0852bbbad19d73905511d9849b95",
+      "name": "yoke-derive",
+      "purl": "pkg:cargo/yoke-derive@0.7.4?checksum=28cc31741b18cb6f1d5ff12f5b7523e3d6eb0852bbbad19d73905511d9849b95",
+      "version": "0.7.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/yoke@0.7.4?checksum=6c5b1314b079b0930c31e3af543d8ee1757b1951ae1e1565ec704403a7240ca5",
+      "name": "yoke",
+      "purl": "pkg:cargo/yoke@0.7.4?checksum=6c5b1314b079b0930c31e3af543d8ee1757b1951ae1e1565ec704403a7240ca5",
+      "version": "0.7.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerocopy-derive@0.8.25?checksum=28a6e20d751156648aa063f3800b706ee209a32c0b4d9f24be3d980b01be55ef",
+      "name": "zerocopy-derive",
+      "purl": "pkg:cargo/zerocopy-derive@0.8.25?checksum=28a6e20d751156648aa063f3800b706ee209a32c0b4d9f24be3d980b01be55ef",
+      "version": "0.8.25",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerocopy@0.8.25?checksum=a1702d9583232ddb9174e01bb7c15a2ab8fb1bc6f227aa1233858c351a3ba0cb",
+      "name": "zerocopy",
+      "purl": "pkg:cargo/zerocopy@0.8.25?checksum=a1702d9583232ddb9174e01bb7c15a2ab8fb1bc6f227aa1233858c351a3ba0cb",
+      "version": "0.8.25",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerofrom-derive@0.1.4?checksum=0ea7b4a3637ea8669cedf0f1fd5c286a17f3de97b8dd5a70a6c167a1730e63a5",
+      "name": "zerofrom-derive",
+      "purl": "pkg:cargo/zerofrom-derive@0.1.4?checksum=0ea7b4a3637ea8669cedf0f1fd5c286a17f3de97b8dd5a70a6c167a1730e63a5",
+      "version": "0.1.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerofrom@0.1.4?checksum=91ec111ce797d0e0784a1116d0ddcdbea84322cd79e5d5ad173daeba4f93ab55",
+      "name": "zerofrom",
+      "purl": "pkg:cargo/zerofrom@0.1.4?checksum=91ec111ce797d0e0784a1116d0ddcdbea84322cd79e5d5ad173daeba4f93ab55",
+      "version": "0.1.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerovec-derive@0.10.3?checksum=6eafa6dfb17584ea3e2bd6e76e0cc15ad7af12b09abdd1ca55961bed9b1063c6",
+      "name": "zerovec-derive",
+      "purl": "pkg:cargo/zerovec-derive@0.10.3?checksum=6eafa6dfb17584ea3e2bd6e76e0cc15ad7af12b09abdd1ca55961bed9b1063c6",
+      "version": "0.10.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:cargo/zerovec@0.10.4?checksum=aa2b893d79df23bfb12d5461018d408ea19dfafe76c2c7ef6d4eba614f8ff079",
+      "name": "zerovec",
+      "purl": "pkg:cargo/zerovec@0.10.4?checksum=aa2b893d79df23bfb12d5461018d408ea19dfafe76c2c7ef6d4eba614f8ff079",
+      "version": "0.10.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/annotated-types@0.7.0",
+      "name": "annotated-types",
+      "purl": "pkg:pypi/annotated-types@0.7.0",
+      "version": "0.7.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/anyio@4.12.1",
+      "name": "anyio",
+      "purl": "pkg:pypi/anyio@4.12.1",
+      "version": "4.12.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/certifi@2026.2.25",
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2026.2.25",
+      "version": "2026.2.25",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/charset-normalizer@3.4.4",
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.4.4",
+      "version": "3.4.4",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.3.1",
+      "name": "click",
+      "purl": "pkg:pypi/click@8.3.1",
+      "version": "8.3.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/contract-api@0.1.0?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0",
+      "name": "contract-api",
+      "purl": "pkg:pypi/contract-api@0.1.0?vcs_url=git%2Bssh://git%40github.com/mahmoudnasser1561/hermeto_demos.git%4069db8e6c01e04d1d4a7139aa16fe809a45ee1ca0",
+      "version": "0.1.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+      "name": "dockerfile-parse",
+      "purl": "pkg:pypi/dockerfile-parse?checksum=sha256:36e4469abb0d96b0e3cd656284d5016e8a674cd57b8ebe5af64786fe63b8184d&download_url=https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/exceptiongroup@1.3.1",
+      "name": "exceptiongroup",
+      "purl": "pkg:pypi/exceptiongroup@1.3.1",
+      "version": "1.3.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/fastapi@0.115.0",
+      "name": "fastapi",
+      "purl": "pkg:pypi/fastapi@0.115.0",
+      "version": "0.115.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "name": "h11",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "version": "0.16.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/httpcore@1.0.9",
+      "name": "httpcore",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "version": "1.0.9",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/httpx@0.27.2",
+      "name": "httpx",
+      "purl": "pkg:pypi/httpx@0.27.2",
+      "version": "0.27.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/idna@3.11",
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.11",
+      "version": "3.11",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/markdown-it-py@4.0.0",
+      "name": "markdown-it-py",
+      "purl": "pkg:pypi/markdown-it-py@4.0.0",
+      "version": "4.0.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "name": "mdurl",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "version": "0.1.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic-core@2.41.5",
+      "name": "pydantic-core",
+      "purl": "pkg:pypi/pydantic-core@2.41.5",
+      "version": "2.41.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/pydantic@2.12.5",
+      "name": "pydantic",
+      "purl": "pkg:pypi/pydantic@2.12.5",
+      "version": "2.12.5",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/pygments@2.19.2",
+      "name": "pygments",
+      "purl": "pkg:pypi/pygments@2.19.2",
+      "version": "2.19.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/python-dotenv@1.0.1",
+      "name": "python-dotenv",
+      "purl": "pkg:pypi/python-dotenv@1.0.1",
+      "version": "1.0.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.3",
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.32.3",
+      "version": "2.32.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/rich@13.9.2",
+      "name": "rich",
+      "purl": "pkg:pypi/rich@13.9.2",
+      "version": "13.9.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/sniffio@1.3.1",
+      "name": "sniffio",
+      "purl": "pkg:pypi/sniffio@1.3.1",
+      "version": "1.3.1",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/starlette@0.38.6",
+      "name": "starlette",
+      "purl": "pkg:pypi/starlette@0.38.6",
+      "version": "0.38.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-extensions@4.15.0",
+      "name": "typing-extensions",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "version": "4.15.0",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/typing-inspection@0.4.2",
+      "name": "typing-inspection",
+      "purl": "pkg:pypi/typing-inspection@0.4.2",
+      "version": "0.4.2",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/urllib3@2.6.3",
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.6.3",
+      "version": "2.6.3",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:pypi/uvicorn@0.30.6",
+      "name": "uvicorn",
+      "purl": "pkg:pypi/uvicorn@0.30.6",
+      "version": "0.30.6",
+      "properties": [
+        {
+          "name": "hermeto:found_by",
+          "value": "hermeto"
+        }
+      ],
+      "type": "library"
+    }
+  ],
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "red hat",
+        "name": "hermeto"
+      }
+    ]
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

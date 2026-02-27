@@ -1,0 +1,7 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+requests==2.32.3
+httpx==0.27.2
+python-dotenv==1.0.1
+rich==13.9.2
+dockerfile-parse @ https://github.com/containerbuildsystem/dockerfile-parse/archive/refs/tags/2.0.0.tar.gz
